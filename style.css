@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 193, 203);
+
+  height: 330px;
+  width: 315px;
+
+  margin: 10px;
+  padding: 20px 0px;
+}
+
+.cards div h3 {
+  padding: 10px;
+}
+.cards div h1{
+    width: 100%;
+    text-align: center;
+}
+.cards div:first-child h1{
+    background-color: #524ccac3;
+}
+.cards div:nth-child(2) h1{
+    background-color: rgba(243, 62, 222, 0.764);
+}
+.cards div:nth-child(3) h1{
+    background-color: rgba(246, 246, 7, 0.764);
+}
+
+
+button {
+    width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
+
+.btn1 {
+  background-color: #524ccac3;
+}
+
+.btn2 {
+  background-color: rgba(243, 62, 222, 0.764);
+}
+
+.btn3 {
+  background-color: rgba(246, 246, 7, 0.764);
+}
